@@ -1,0 +1,1 @@
+15 starda paylaşılacak
