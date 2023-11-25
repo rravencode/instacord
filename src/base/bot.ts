@@ -3,7 +3,7 @@ import { reloadEvents } from '@/modules/event.ts';
 import { Client, GatewayIntentBits } from 'discord.js';
 
 export const bot = new Client({
-  intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildWebhooks],
+  intents: [GatewayIntentBits.Guilds],
   partials: [],
   rest: {
     offset: 0,
