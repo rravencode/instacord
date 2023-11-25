@@ -1,7 +1,7 @@
 {
   "name": "bot",
   "type": "module",
-  "version": "1.5.5",
+  "version": "1.0.0",
   "scripts": {
     "lint": "cls && eslint . --ext .ts --fix",
     "start": "cls && tsx --no-warnings -r dotenv/config ./src/index.ts",
